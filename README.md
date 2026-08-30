@@ -116,11 +116,10 @@ The interactive dashboard provides:
 -   Total charging stations
 -   Total stations in the selected state
 -   Reachable stations
--   Reachable percentage distribution
--   Top 3 optimal stations by score
+-   Reachable vs Non-Reachable as per selected
+-   Top 5 optimal stations by score
 -   State/City slicers
 -   Score-based ranking
--   Dynamic charts and visuals
 
 ## 🛠️ Technology / Tools
 
@@ -160,7 +159,9 @@ EV_Recommendation_Dashboard/
 │
 ├── EV Recommendation Dashboard.xlsx
 ├── README.md
-└── Flow Diagram2.png
+└── Flow Diagram.png
+└── Detailed error with Cleaning.png
+
 ```
 
 ## 🎯 Business Value
