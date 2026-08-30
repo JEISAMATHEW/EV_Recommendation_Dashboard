@@ -45,7 +45,7 @@ Recommend the **optimal EV charging station** by evaluating:
 
 ## 📊 Dataset
 
-The project starts with an **EV raw dataset containing 1,548 rows**.
+The project starts with an **EV raw dataset containing 1,547 rows** (1,548 rows including the header row).
 
 Key fields include:
 
@@ -57,7 +57,7 @@ Key fields include:
 -   Longitude
 -   Type
 
-After cleaning and transformation, the project produces an **EV cleaned dataset containing 1,121 rows** with additional analytical fields such as:
+After cleaning and transformation, the project produces an **EV cleaned dataset containing 1,117 rows** with additional analytical fields such as:
 
 -   Distance
 -   Estimated Battery on Arrival
@@ -135,7 +135,7 @@ Weighted Recommendation Score
       ↓
 Station Ranking
       ↓
-Top 3 Optimal Stations
+Top 5 Optimal Stations
       ↓
 Interactive EV Charging Dashboard
 ```
