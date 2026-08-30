@@ -2,11 +2,7 @@
 
 ## 📌 Project Overview
 
-The **EV Charging Recommendation Dashboard** is an Excel-based data
-analytics project designed to help electric vehicle (EV) drivers
-identify the most suitable charging station based on their current
-battery level, vehicle range, station distance, and simulated queue
-length.
+The **EV Charging Recommendation Dashboard** is an Excel-based data analytics project designed to help electric vehicle (EV) drivers identify the most suitable charging station based on their current battery level, vehicle range, station distance, and simulated queue length.
 
 The project follows an end-to-end workflow:
 
@@ -19,10 +15,7 @@ The project follows an end-to-end workflow:
 
 ## 💡 Business Problem
 
-EV drivers may struggle to identify the best charging station when
-multiple stations are available. Choosing a station only by distance may
-result in longer waiting times or selecting a station that is not
-suitable for the vehicle's available battery range.
+EV drivers may struggle to identify the best charging station when multiple stations are available. Choosing a station only by distance may result in longer waiting times or selecting a station that is not suitable for the vehicle's available battery range.
 
 ## 🎯 Objective
 
@@ -45,7 +38,7 @@ Recommend the **optimal EV charging station** by evaluating:
 -   Queue-length simulation
 -   Reachability evaluation
 -   Weighted station scoring
--   Top 3 optimal charging station ranking
+-   Top 5 optimal charging station ranking
 -   State/City filtering
 -   Reachable station analysis
 -   Dynamic charts and dashboard visuals
@@ -64,9 +57,7 @@ Key fields include:
 -   Longitude
 -   Type
 
-After cleaning and transformation, the project produces an **EV cleaned
-dataset containing 1,121 rows** with additional analytical fields such
-as:
+After cleaning and transformation, the project produces an **EV cleaned dataset containing 1,121 rows** with additional analytical fields such as:
 
 -   Distance
 -   Estimated Battery on Arrival
@@ -89,8 +80,7 @@ The Excel workflow includes:
 
 ## 🧮 Recommendation Algorithm
 
-The station recommendation uses a weighted scoring approach based on
-distance, queue length, and battery level.
+The station recommendation uses a weighted scoring approach based on distance, queue length, and battery level.
 
 **Score = ((1 − Distance/MAX) × 0.4 + (1 − Queue/MAX) × 0.3 +
 (Battery/100) × 0.3) × 100**
@@ -105,9 +95,7 @@ Higher scores indicate more preferable charging stations.
   Queue Length         30%
   Battery Level        30%
 
-The dashboard prioritizes stations that are closer, have shorter queues,
-and provide suitable accessibility based on the user's battery
-situation.
+The dashboard prioritizes stations that are closer, have shorter queues, and provide suitable accessibility based on the user's battery situation.
 
 ## 📈 Dashboard Outputs
 
@@ -161,6 +149,7 @@ EV_Recommendation_Dashboard/
 ├── README.md
 └── Flow Diagram.png
 └── Detailed error with Cleaning.png
+└── EV-Industry-Charging-Recommendation-Dashboard.pptx
 
 ```
 
@@ -174,9 +163,7 @@ This solution can help EV drivers:
 -   Make data-driven charging decisions
 -   Compare multiple charging stations using a consistent score
 
-For EV charging businesses, the approach can also support future
-enhancements such as real-time queue data, live station availability,
-pricing comparison, and predictive demand analysis.
+For EV charging businesses, the approach can also support future enhancements such as real-time queue data, live station availability, pricing comparison, and predictive demand analysis.
 
 ## 🚀 Future Enhancements
 
@@ -197,15 +184,3 @@ pricing comparison, and predictive demand analysis.
 -   Dashboard visualizations
 -   Project flow/architecture diagram
 -   GitHub repository documentation
-
-## 👤 Author
-
-**JEISAMATHEW**
-
-------------------------------------------------------------------------
-
-### Project Summary
-
-> **An interactive EV charging recommendation dashboard that helps
-> drivers find the optimal charging station using battery level, queue
-> length, distance, and reachability.**
