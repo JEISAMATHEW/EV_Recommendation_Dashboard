@@ -12,6 +12,5 @@ What I built:
 
 Impact: This kind of approach can help EV drivers save search time, avoid long waits, and make smarter charging decisions — and could extend to real-time queue data, live availability, and even ML-based demand prediction in the future.
 
-Huge thanks to [Instructor Name] for the guidance throughout this project! 🙏
 
 #EVIndustry #DataAnalytics #Excel #upGradX #ElectricVehicles #DataCleaning #Dashboard #LearnerProject
