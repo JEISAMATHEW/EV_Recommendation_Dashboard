@@ -1,0 +1,17 @@
+🚗⚡ Excited to share my latest project: EV Charging Recommendation Dashboard!
+
+As part of my learning journey with @upGrad (Offline Xperience), I built an end-to-end Excel-based analytics project that helps EV drivers find the best charging station — not just the nearest one.
+
+The problem: EV drivers often pick a charging station based on distance alone, which can mean long queues or a station that's out of reach given their current battery level.
+
+What I built:
+🔋 A weighted recommendation engine scoring stations on Distance (40%), Queue Length (30%), and Battery Level (30%)
+🧹 Cleaned a raw dataset of 1,547 charging stations down to 1,117 reliable records (deduped, fixed lat/long errors, standardized casing)
+📊 An interactive dashboard with Top-5 station rankings, Reachable vs Non-Reachable breakdown, and State/City filters
+🎯 A clear end-to-end workflow: Raw Data → Cleaning → Scoring → Recommendations → Dashboard
+
+Impact: This kind of approach can help EV drivers save search time, avoid long waits, and make smarter charging decisions — and could extend to real-time queue data, live availability, and even ML-based demand prediction in the future.
+
+Huge thanks to [Instructor Name] for the guidance throughout this project! 🙏
+
+#EVIndustry #DataAnalytics #Excel #upGradX #ElectricVehicles #DataCleaning #Dashboard #LearnerProject
