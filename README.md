@@ -148,10 +148,13 @@ Interactive EV Charging Dashboard
 EV_Recommendation_Dashboard/
 │
 ├── EV Recommendation Dashboard.xlsx
-├── README.md
-└── Flow Diagram.png
-└── Detailed error with Cleaning.png
-└── EV-Industry-Charging-Recommendation-Dashboard.pptx
+├── EV-Industry-Charging-Recommendation-Dashboard.pptx
+├── Flow Diagram.png
+├── Dashboard.png
+├── Detailed error with Cleaning.png
+├── ev_charging_pink_theme.jpg
+├── EV-Industry-Charging-Recommendation-Dashboard.mp4
+└── README.md
 
 ```
 
