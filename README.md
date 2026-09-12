@@ -125,11 +125,11 @@ The interactive dashboard provides:
 ``` text
 Raw EV Dataset
       ↓
-Data Cleaning \\\& Transformation
+Data Cleaning & Transformation
       ↓
 Distance Calculation
       ↓
-Battery \\\& Reachability Analysis
+Battery & Reachability Analysis
       ↓
 Queue Length Simulation
       ↓
@@ -145,7 +145,7 @@ Interactive EV Charging Dashboard
 ## 📁 Project Structure
 
 ``` text
-EV\\\_Recommendation\\\_Dashboard/
+EV_Recommendation_Dashboard/
 │
 ├── EV Recommendation Dashboard.xlsx
 ├── README.md
